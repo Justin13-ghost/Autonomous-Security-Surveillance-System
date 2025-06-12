@@ -4,7 +4,7 @@ This is a two-part smart surveillance system that combines motion sensing, compu
 
 ---
 
-## 🔧 System Architecture
+##  System Architecture
 
 ### **Part 1: Scanning Radar with ESP32**
 
@@ -43,7 +43,7 @@ This is a two-part smart surveillance system that combines motion sensing, compu
 
 ---
 
-## 📸 Demonstration
+##  Demonstration
 
 <!-- Insert images or demo GIFs -->
 ![Radar View](images/radar_demo.gif)
