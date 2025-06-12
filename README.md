@@ -51,14 +51,14 @@ This is a two-part smart surveillance system that combines motion sensing, compu
 
 ---
 
-## 💡 Features
+##  Features
 
-- 📡 Real-time 180° ultrasonic scanning radar
-- 🌐 MQTT-based inter-device communication
-- 🧠 YOLOv8 object detection on Raspberry Pi
-- 🎯 Target tracking using custom pan-tilt servo algorithm
-- 🖥️ Touchscreen interface and Node-RED dashboard
-- 🔧 Fully 3D-printed mechanical design
+-  Real-time 180° ultrasonic scanning radar
+-  MQTT-based inter-device communication
+-  YOLOv8 object detection on Raspberry Pi
+-  Target tracking using custom pan-tilt servo algorithm
+-  Touchscreen interface and Node-RED dashboard
+-  Fully 3D-printed mechanical design
 
 ---
 
@@ -85,7 +85,7 @@ This is a two-part smart surveillance system that combines motion sensing, compu
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 ### ESP32:
 - Arduino IDE
@@ -102,7 +102,7 @@ This is a two-part smart surveillance system that combines motion sensing, compu
 
 ---
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### 1. ESP32
 - Flash `radar_scan.ino` to your ESP32 via Arduino IDE
