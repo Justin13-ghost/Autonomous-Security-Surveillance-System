@@ -63,24 +63,35 @@ This is a two-part smart surveillance system that combines motion sensing, compu
 ---
 
 ## 📁 Project Structure
-├── esp32/
-│ ├── radar_scan.ino # Arduino code for ultrasonic sweep + MQTT
+project-root/
+├── arduino-code/              # Arduino code for ESP32-based scanning turret
+│   └── radar_scanner.ino
 │
-├── processing/
-│ ├── radar_visualizer.pde # Processing radar interface
+├── processing-ui/             # Processing sketch for radar-style display
+│   └── radar_visualizer.pde
 │
-├── raspberry_pi/
-│ ├── tracking_camera.py # Python script with YOLOv8 + OpenCV
-│ ├── servo_control.py # Custom object-centering algorithm
-│ ├── mqtt_subscriber.py # MQTT integration
-│ └── node_red_flow.json # Node-RED dashboard flow
+├── raspberry-pi-code/         # Python code for Raspberry Pi-based camera turret
+│   ├── object_tracker.py      # Main YOLOv8 + OpenCV tracking script
+│   ├── mqtt_listener.py       # Subscribes to ESP32 distance data
+│   └── utils/                 # Helper modules
+│       ├── servo_controller.py
+│       └── yolov8_interface.py
 │
-├── stl_files/ # 3D printable parts
-│ ├── turret_mount.stl
-│ ├── pan_base.stl
-│ └── tilt_arm.stl
+├── nodered-flows/             # Node-RED flow export for live data display
+│   └── nodered_flow.json
 │
-└── README.md
+├── stl-files/                 # 3D printable parts for both turret systems
+│   ├── esp32_servo_turret/
+│   └── pi_pan_tilt_mount/
+│
+├── media/                     # Images and demo videos for README and documentation
+│   ├── demo.gif
+│   ├── system_diagram.png
+│   └── screenshots/
+│
+├── LICENSE                    # MIT License (for code)
+├── LICENSE-mechanical         # CC BY 4.0 License (for STL files and diagrams)
+└── README.md                  # Project overview and documentation
 
 
 ---
