@@ -1,0 +1,7 @@
+Autonomous Surveillance & Object Tracking System | ESP32, Raspberry Pi, Arduino, YOLOv8, OpenCV, MQTT, 3D Printing
+•	Designed, fabricated, and programmed a dual-turret robotic system integrating custom mechanical components, embedded controls, computer vision, and custom electromechanical hardware to simulate an autonomous perimeter security platform. 
+•	Engineered two 3D-printed servo-based turret systems: one for a servo-actuated ultrasonic scanning radar, and one for real-time camera tracking pan-tilt system (Raspberry Pi 5 + Pi Camera Module V3).
+•	Developed end-to-end embedded and application-layer software in Arduino and Python, including custom algorithms for real-time object tracking using YOLOv8 and OpenCV with custom servo control algorithms to maintain object centering.
+•	Developed a custom Processing-based radar interface and a Node-RED dashboard for real-time visualization and monitoring.
+•	Integrated mechanical design, electrical wiring, embedded software, and AI-driven object detection into a cohesive, reactive system.
+•	Demonstrated cross-disciplinary skills across mechanical CAD, additive manufacturing, low-level microcontroller programming, embedded systems, robotics, and real-time computer vision.
